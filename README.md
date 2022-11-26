@@ -1,6 +1,7 @@
-# D3test
+# D3 and Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
+It is also extended from the original demo project https://github.com/karllhughes/angular-d3
 
 ## Development server
 
