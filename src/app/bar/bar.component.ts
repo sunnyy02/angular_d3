@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as d3 from 'd3';
 
+
 @Component({
   selector: 'app-bar',
   templateUrl: './bar.component.html',
@@ -26,7 +27,15 @@ export class BarComponent implements OnInit {
     // d3.csv("/assets/frameworks.csv").then(data => this.drawBars(data));
 
     // Fetch JSON from an external endpoint
-    // d3.json('https://api.jsonbin.io/b/5eee6a5397cb753b4d149343').then(data => this.drawBars(data));
+    // type ChartDataType ={
+    //   Framework: string,
+    //   Stars: number,
+    //   Released: number
+    // }
+    //  d3.json('https://api.jsonbin.io/b/5eee6a5397cb753b4d149343').then(data=> {
+    //   const chartData = data as ChartDataType[];
+    //   this.drawBars(chartData);
+  // });
 }
 
 private createSvg(): void {
